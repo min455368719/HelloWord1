@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.d1{
+				width: 450px;
+				height: 520px;
+				margin: auto;
+				border: 1px solid black;	
+			}
+			
+			.d1_1 {
+				width: 430px;
+				margin: auto;
+				padding-top: 10px;
+				border-bottom: 2px solid #B81E20;
+			}
+			
+			.d1_1 strong{
+				color: #B0B1C4;
+				font-size: 20px;
+			}
+			.d1_1 span {
+				color: #B0B1C4;
+				margin-left: 140px;
+			}
+			.d1_1 a {
+				color: #B81E20;
+				text-decoration: none;
+			}
+
+			
+			.d1_2 {
+				width: 430px;
+				margin: 20px auto;
+			}
+			.d1_2 img {
+				width: 145px;
+				height: 45px;
+				border: 1px solid #B0B1C4;
+				margin-left: 10px;
+				float: right;
+			}
+			.inp1 {
+				color: #B0B1C4;
+				width:260px;
+				height:40px;
+				font-size: 16px;
+				text-indent: 10px;
+			}
+			
+			.butt {
+				width: 145px;
+				height: 45px;
+				font-size: 14px;
+				color: #B81E20;
+				float: right;
+			}
+			
+			.inp2 {
+				color: #B0B1C4;
+				width:424px;
+				height:40px;
+				margin-bottom: 20px;
+				font-size: 16px;
+				text-indent: 10px;
+			}
+			
+			label {
+				color: #B0B1C4;
+				font-size: 14px;
+			}
+			
+			label a{
+				color: #B81E20;
+				font-size: 14px;
+				text-decoration: none;
+			}
+			
+			.butt2 {
+				width: 424px;
+				height: 45px;
+				font-size: 18px;
+				background-color: #9A9A9A;
+				color: white;
+				float: right;
+			}
+
+			a:hover {
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="d1">
+			<div class="d1_1">
+				<strong>注册新用户</strong>
+				<span>我已经注册，现在就<a href="#">登录</a>	</span>
+			</div>
+			
+			<div class="d1_2">
+				<input type="text" placeholder="验证码" class="inp1" />
+				<img src="images/1.png"/>
+			</div>
+			
+			<div class="d1_2">
+				<input type="text" placeholder="请输入手机号" class="inp1" />
+				<input class="butt" type="button" value="获取短信验证码" />
+			</div>
+			
+			<div class="d1_2">
+				<input type="text" placeholder="填写手机验证码" class="inp2" />
+				<input type="password" placeholder="设定登录密码" class="inp2" />
+				<input type="password" placeholder="再次输入密码" class="inp2" />
+				<p><label>
+					<input type="checkbox" name=""/>请阅读
+					<a href="#">《VANCL凡客诚品服务条款》</a>
+				</label></p>
+				<input class="butt2" type="button" value="立即注册"/>
+			</div>
+		</div>
+	</body>
+</html>
